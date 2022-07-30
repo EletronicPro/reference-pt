@@ -34,7 +34,7 @@ A função `analogWrite()` nada tem a ver com os pinos analógicos ou a função
 [float]
 === Parâmetros
 `pino`: o pino escolhido do Arduino. Tipos de dados permitidos: int. +
-`valor`: o duty cycle: entre 0 (sempre desligado) and 255 (sempre ligado). Tipos de dados permitidos: int
+`valor`: o duty cycle: entre 0 (sempre desligado) and 255 (sempre ligado), não pode ser usado os valores de `HIGH`|`LOW`. Tipos de dados permitidos: int
 
 
 [float]
